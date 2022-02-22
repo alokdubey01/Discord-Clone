@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700;900&family=Staatliches&display=swap');
+:root{
+  --main-bg: #5865f2;
+  --brown: #36393f;
+  --dark: #23272a;
+  --main-bg-dark: #404eed;
+  --red: #ed4245;
+  --green: #3ba55d;
+  --orange: #f26522;
+  --white: #ffffff;
+  --blue: #0000ee;
+  --sky: #00b0f4;
+  --dim: #f6f6f6;
+  --loginText: #8e9297;
+  --trans: rgba(0,0,0,0);
+  --caps: 'Passion One', cursive;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius        : 10px;
+  background           : #ddd;
+}
+body{
+  font-family: Verdana;
+}
+.collapse{
+  margin-left: -70px;
+}
+.thumbnail{
+  background-image: url('assets/center_bg_landing_header.svg');
+  background-color: var(--main-bg-dark);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 97vh;
+}
+.leftBg{
+  position: absolute;
+  width: 800px;
+  height: 350px;
+  margin: -55px 0px 0px -450px;
+}
+.rightBg{
+  position: absolute;
+  right: 0;
+  width: 600px;
+  height: 600px;
+  margin: -182px -340px 0px 0px;
+}
+.navbar-brand{
+  color: var(--white);
+  font-weight: 900;
+  margin: 10px 0px 0px 10px;
+}
+.navbar-brand:hover{
+  color: var(--white);
+}
+.navbar-brand img{
+  margin: -15px -5px 0px 0px;
+}
+.nav-item a{
+  color: var(--white);
+  margin-left: 20px;
+  font-weight: 700;
+  font-size: 13px;
+}
+.nav-item a:hover{
+  text-decoration: underline 2px solid;
+  color: var(--white);
+}
+.login{
+  background: none;
+  border: none;
+  border-radius: 20px;
+  background: var(--white);
+  padding: 3px 15px 5px 15px;
+  text-align: center;
+  margin-right: 30px;
+}
+.signup{
+  background: none;
+  border: none;
+  border-radius: 20px;
+  background: var(--main-bg);
+  padding: 3px 15px 5px 15px;
+  text-align: center;
+  margin-right: 30px;
+  margin-top: -20px;
+  position: absolute;
+  right: 0;
+}
+.signup a{
+  text-decoration: none;
+  color: var(--white);
+  font-size: 12px;
+}
+.login a{
+  text-decoration: none;
+  color: var(--blue);
+  font-size: 12px;
+}
+.navbar-toggler-icon{
+  color: var(--white);
+  font-size: 28px;
+  margin-top: 5px;
+}
+.navbar-toggler-icon{
+  border: none;
+}
+.thumbnail h1{
+  color: var(--white);
+  font-family: var(--caps);
+  margin: 70px auto;
+  text-align: center;
+  font-size: 72px;
+}
+.thumbnail p{
+  width: 750px;
+  text-align: center;
+  margin: -30px auto;
+  color: var(--white);
+  line-height: 30px;
+  font-size: 17px;
+}
+.flex{
+  height: 100px;
+  margin: 70px 0px 0px 25%;
+}
+.dwn_logo{
+  font-size: 24px;
+}
+.btn{
+  border-radius: 30px;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 18px;
+  z-index: 10;
+  width: 330px;
+  border: none;
+}
+.btn:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.download_btn:hover{
+  color: var(--main-bg-dark);
+}
+.browser_btn{
+  margin-left: 20px;
+}
+.browser_btn:hover{
+  background: var(--brown);
+}
+.content{
+  margin-top: -20px;
+}
+.content img{
+  height: 600px;
+  width: 630px;
+}
+.content h1{
+  font-weight: 900;
+  font-size: 45px;
+  text-align: left;
+  width: 450px;
+}
+.content p{
+  width: 400px;
+  margin-top: 30px;
+  line-height: 30px;
+}
+.invite-only h1,
+.invite-only p,
+.fandom h1,
+.fandom p{
+  margin-left: 70px;
+}
+.invite-only,
+.hanging,
+.fandom{
+  padding: 0px 30px 0px 30px;
+}
+.hanging,
+.highlight{
+  background: var(--dim);
+}
+.center h1{
+  font-family: var(--caps);
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+}
+.center p{
+  width: 70%;
+  text-align: center;
+  margin-left: 15%;
+}
+.highlight img{
+  margin-left: 5%;
+  height: auto;
+  width: 1100px;
+}
+.click{
+  margin-top: 70px;
+}
+.click h1{
+  width: 1200px;
+  height: 50px;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 30px;
+  color: #000;
+  background: url('assets/tiny_stars_landing.svg') no-repeat;
+  background-position: center;
+}
+.btn-primary{
+  background: var(--main-bg);
+  margin: 20px 0px 100px 35%;
+}
+.footer_discort{
+  color: var(--main-bg-dark);
+  font-family: var(--caps);
+  font-size: 48px;
+}
+.dropdown-toggle{
+  position: relative;
+  background: none;
+  cursor: pointer;
+  font-size: 14px;
+  width: 150px;
+  border: none;
+}
+.dropdown-toggle:hover{
+  background: none;
+  box-shadow: none;
+}
+.ul{
+  color: var(--main-bg-dark);
+}
+.text-reset{
+  text-decoration: none;
+}
+.login_container{
+  background: var(--main-bg) url('assets/login_bg.svg') no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.card{
+  background: var(--brown);
+}
+.qr{
+  background: var(--white);
+  height: 170px;
+  width: 170px;
+  border-radius: 10px;
+  margin-left: 60px;
+}
+.qr img{
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+}
+.qr_dash h4{
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+  text-align: center;
+}
+.qr_dash p{
+  font-size: 15px;
+  text-align: center;
+  color: var(--loginText);
+}
+.d-flex{
+  flex-wrap: wrap;
+}
